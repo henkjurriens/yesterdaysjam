@@ -7,6 +7,11 @@ angular.module("app").config(function($routeProvider, $locationProvider) {
     controller: 'LoginController'
   });
 
+  $routeProvider.when('/mandy', {
+    templateUrl: 'mandytest.html',
+    controller: 'MandyController'
+  });
+
   $routeProvider.when('/home', {
     templateUrl: 'home.html',
     controller: 'HomeController'
